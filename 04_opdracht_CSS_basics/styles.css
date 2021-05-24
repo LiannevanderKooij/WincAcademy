@@ -1,0 +1,19 @@
+body {
+    background-color: #fffae3;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #684551;
+}
+
+.head-border {
+    border: 2px solid #684551;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#picture {
+    margin: 20px;
+}
+
+.list {
+    font-size: 17px;
+}
