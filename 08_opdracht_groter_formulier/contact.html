@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contactformulier</title>
+</head>
+
+<body>
+    <header>
+        <h1>Recipe</h1>
+    </header>
+    <nav>
+        <a href="index.html">Back to homepage </a>
+    </nav>
+    <main>
+        <form name="recipe" method="POST" data-netlify="true">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+            <label for="phone-number">Phone number:</label>
+            <input type="tel" id="phone-number" name="phone-number">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age">
+            <label for="birth-date">Birth date:</label>
+            <input type="date" id="birth-date" name="birth-date">
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <p>Favourite cuisine:</p>
+            <input type="checkbox" id="cuisine1" name="cuisine1" value="French">
+            <label for="cuisine1"> French</label><br>
+            <input type="checkbox" id="cuisine2" name="cuisine2" value="Italian">
+            <label for="cuisine2"> Italian</label><br>
+            <input type="checkbox" id="cuisine3" name="cuisine3" value="Spanish">
+            <label for="cuisine3"> Spanish</label>
+            <input type="checkbox" id="cuisine4" name="cuisine4" value="Arabian">
+            <label for="cuisine4"> Arabian</label>
+            <label for="favcolor">Select your favorite short color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+            <label>Biography:<textarea name="text" cols="30" rows="10"></textarea></label>
+            <label for="myfile">Upload your latest recipe:</label>
+            <input type="file" id="myfile" name="myfile">
+            <label for="recipes">Add URL to your recipes:</label>
+            <input type="url" id="recipes" name="recipes"> 
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
